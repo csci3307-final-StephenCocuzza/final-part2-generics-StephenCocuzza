@@ -21,7 +21,7 @@ public class FigureProgram4_4and4_5 {
 		{
 		this.name = name;
 		
-					}
+		}
 		
 		public void setName(String name)
 		{
