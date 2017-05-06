@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true">  
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.mycompany.ass3.chapter7.Exp7_HelloArrayList.MainEntry" 
+    project="com.mycompany.ass3.chapter7" 
+    file="/com.mycompany.ass3.chapter7/src/com/mycompany/ass3/chapter7/Exp7_HelloArray.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="278" x="220" y="527"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.mycompany.ass3.chapter7.Exp7_HelloArrayList.MainEntry.SomeClass" 
+    project="com.mycompany.ass3.chapter7" 
+    file="/com.mycompany.ass3.chapter7/src/com/mycompany/ass3/chapter7/Exp7_HelloArray.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="145" x="220" y="720"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.mycompany.ass3.chapter7.MainEntry" project="com.mycompany.ass3.chapter7" 
+    file="/com.mycompany.ass3.chapter7/src/com/mycompany/ass3/chapter7/Exp7_HelloArrayList.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="145" x="168" y="388"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.mycompany.ass3.chapter7.Exp7_HelloArrayList" 
+    project="com.mycompany.ass3.chapter7" 
+    file="/com.mycompany.ass3.chapter7/src/com/mycompany/ass3/chapter7/Exp7_HelloArray.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="145" x="353" y="388"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="5">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <nesting id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
